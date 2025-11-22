@@ -11,12 +11,13 @@ st.set_page_config(page_title="Auction Assistant (Streamlit demo)", layout="wide
 
 # --------- CONFIG: local dataset paths (these are the exact local paths you uploaded) ----------
 CSV_PATHS = [
-    "/mnt/data/car.csv",
-    "/mnt/data/furniture.csv",
-    "/mnt/data/electronics.csv",
-    "/mnt/data/antique.csv"
+    "car.csv",
+    "furniture.csv",
+    "electronics.csv",
+    "antique.csv"
 ]
-IMAGES_DIR = "/mnt/data/car_images"  # folder where your 1.jpg..40.jpg were extracted
+IMAGES_DIR = "car_images"
+
 
 # ---------- Helper: load CSVs that exist ----------
 def load_csvs(paths):
